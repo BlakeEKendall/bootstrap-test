@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    
+    <!--Had a header here, but this should be a div too, moved to body? 
+        header is a kind of container or div, so this could stay, but try as a div in the body first. -->
+</head>
+<body>
+    <div class="header"> 
+        <button class="headerButton" type="submit" >About Us</button>
+        <button class="headerButton" type="submit">Register</button>
+        <hr/>
+    </div>
+
+    <div class="container"> <!--restyle the whole container, take style off of what is now the form-->
+        <div class="signUpForm">
+         <h3>Sign Up</h3>
+        <!--This needs to be in a form! fix inputs so that they display input boxes for a form--> 
+            <form method="GET">
+                    <p><label> <input type="Email" style="width: 100%; border-radius: 5px; padding: 5px;" placeholder="Email"></label></p>
+                    <p><label> <input type="Username" style="width: 100%; border-radius: 5px; padding: 5px;" placeholder="Username"></label></p>
+                    <p><label> <input type="password" style="width: 100%; border-radius: 5px; padding: 5px;" placeholder="Password"></label></p>
+                    <p><label> <input type="password" style="width: 100%; border-radius: 5px; padding: 5px;" placeholder="Confirm Password"></label></p>
+                    <p><label> <button class ="submitButton2" type="Submit">Submit</button></label></p>
+            </form>
+        </div>
+        
+        <br>
+
+        <!--these need to be in a separate div? margin: auto may help center.
+        Use percentages for size so that things scale to page size or zoom level    -->
+        <div class="iconRow">
+            <div class="column">
+                <a href="https://www.amazon.com/" target="blank"><img src="https://marilynscott.com/wp-content/uploads/2017/10/td-amazon-smile-logo-01-large.png" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/" target="blank"><img src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.github.com/" target="blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.slack.com/" target="blank"><img src="https://pluspng.com/img-png/slack-logo-png-top-10-alternatives-to-slack-leading-communications-software-solutions-financesonline-com-416.png" style="width:100%"></a>
+            </div>
+            <div class="column">
+                <a href="https://www.instagram.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/The_Instagram_Logo.jpg" style="width:100%"></a>
+            </div>
+        </div>
+    </div> 
+    
+</body>
+</html> 
